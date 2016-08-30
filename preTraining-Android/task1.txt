@@ -1,0 +1,128 @@
+
+
+interface Student{
+
+ String program;
+
+ int year;
+
+ double fee;
+
+	public Student(String name,String address,String program,int year,double fee){
+
+		void function();
+
+		String getProgram();
+
+		void setProgram(String program);
+
+		int getYear();
+
+		void setYear(int year);
+
+		double getFee();
+
+		void setFee(double fee);
+
+		String toString();
+
+}
+
+
+
+interface Staff{
+
+ String school;
+
+ double pay;
+
+	public Staff(String name,String school,double pay){
+
+		String getSchool();
+
+		void setSchool(String school);
+
+		double getPay();
+
+		void setPay(double pay);
+
+		String toString();
+
+}
+
+
+
+public abstract class Person implements Student,Staff{
+
+ String name;
+
+ String address;
+
+	public Person(String name,String address){
+
+		public String getName(){
+
+			name=name;
+}
+
+		public String getAddress(){
+
+			return setAddress(address);
+}
+
+		public void setAddress(String address);{
+
+			address=address;}
+
+		public String toString(){
+
+				System.out.print("name="+name+",address="+address);
+
+					}}
+
+	public static void main(String []args){
+
+		Student y=new Student()
+
+			{	public void function(){
+
+				public String getProgram(){
+
+					return setProgram(ECE);}
+
+				public void setProgram(String program){
+
+					program=program;}
+
+				public int getYear(){
+
+					return setYear(4);}
+
+				public void setYear(int year){
+
+					year=year;}
+
+				public double getFee(){
+
+					return setFee(10000);}
+
+				public void setFee(double fee){
+
+					fee=fee;}
+
+				Person(vikas,rajahmundry);
+
+				System.out.println(",program="+program+",year="+year",fee+"+fee);}
+
+			};
+
+			y.function();
+
+
+		Staff s=new Staff()
+
+			{	public void func(){
+
+				public String
+ 
+}
